@@ -44,13 +44,9 @@ program
     fs.appendFile(QUOTE_FILE, "\n" + newQuote)
 
     //output
-   // console.log(chalk.bgMagenta("Your Quote of") + "\n '" + newQuote + "' \n"+ chalk.bgMagenta("Was Successfully Added!"))
+   console.log(chalk.bgMagenta("Your Quote of") + "\n '" + newQuote + "' \n"+ chalk.bgMagenta("Was Successfully Added!"))
 
- 
-   console.log("Your Quote of\n'" + newQuote + "' \nWas Successfully Added!")
-
-
-
+  //console.log("Your Quote of\n'" + newQuote + "' \nWas Successfully Added!")
     
   });
 
